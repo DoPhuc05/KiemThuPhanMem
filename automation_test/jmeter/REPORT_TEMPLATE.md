@@ -292,7 +292,7 @@ Các file CSV và screenshots được lưu trong thư mục `results/`:
 - Implement rate limiting hợp lý để bảo vệ hệ thống
 - Tối ưu hóa queries và indexes cho database
 - Sử dụng CDN để phân phối static content
-- Monitor và scale horizontally khi cần thiết
+- Monitor và scale horizontally khi cần thiết 
 
 ---
 

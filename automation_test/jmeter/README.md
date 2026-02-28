@@ -63,6 +63,7 @@ cd ~/JMeter/apache-jmeter-5.6.3/bin
 
 JMeter GUI sẽ mở ra.
 
+
 ---
 
 ## Tổng Quan Test Plan

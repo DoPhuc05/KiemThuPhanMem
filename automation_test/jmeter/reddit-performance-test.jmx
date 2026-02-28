@@ -151,7 +151,8 @@
           <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        
+
+
         <!-- CSV Results for TG2 -->
         <ResultCollector guiclass="SimpleDataWriter" testclass="ResultCollector" testname="TG2 - CSV Results">
           <boolProp name="ResultCollector.error_logging">false</boolProp>

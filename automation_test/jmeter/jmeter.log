@@ -127,7 +127,7 @@
 2026-01-26 07:48:29,302 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3 - Custom Scenario 3-11
 2026-01-26 07:48:29,685 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2 - Heavy Load 2-10
 2026-01-26 07:48:29,803 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3 - Custom Scenario 3-12
-2026-01-26 07:48:30,217 INFO o.a.j.r.Summariser: summary +      3 in 00:00:06 =    0.5/s Avg:  5132 Min:  4420 Max:  5567 Err:     0 (0.00%) Active: 32 Started: 32 Finished: 0
+2026-01-26 07:48:30,217 INFO o.a.j.r.Summariser: summary +     3 in 00:00:06 =    0.5/s Avg:  5132 Min:  4420 Max:  5567 Err:     0 (0.00%) Active: 32 Started: 32 Finished: 0
 2026-01-26 07:48:30,285 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2 - Heavy Load 2-11
 2026-01-26 07:48:30,303 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3 - Custom Scenario 3-13
 2026-01-26 07:48:30,801 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3 - Custom Scenario 3-14

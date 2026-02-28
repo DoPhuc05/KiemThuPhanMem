@@ -1,6 +1,7 @@
 # JMeter Automated Test Runner
 # This script runs all 3 Thread Groups and generates reports
 
+
 $JMETER_HOME = "D:\App_Data\jmeter\apache-jmeter-5.6.3"
 $JMETER_BIN = "$JMETER_HOME\bin\jmeter.bat"
 $TEST_PLAN = "D:\Code_Projects\School\Courses\KiemThu\KiemThuPhanMem\automation_test\jmeter\reddit-performance-test.jmx"

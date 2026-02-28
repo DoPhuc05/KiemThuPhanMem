@@ -1,16 +1,16 @@
 # Bài tập thực hành kiểm thử tự động End-to-End với Cypress
 
-## 📋 Mô tả dự án
+## Mô tả dự án
 
 Dự án này là bài tập thực hành kiểm thử tự động End-to-End sử dụng Cypress để kiểm tra trang web [SauceDemo](https://www.saucedemo.com) - một ứng dụng demo cho thực hành kiểm thử tự động.
 
-## 🎯 Mục tiêu
+## Mục tiêu
 
 - Hiểu và thực hành các kịch bản kiểm thử tự động end-to-end phổ biến
 - Sử dụng Cypress để kiểm tra trang web mẫu
 - Viết và chạy các test cases cho các tính năng: đăng nhập, giỏ hàng, và thanh toán
 
-## 📁 Cấu trúc dự án
+## Cấu trúc dự án
 
 ```
 cypress-exercise/
@@ -27,7 +27,7 @@ cypress-exercise/
 └── README.md
 ```
 
-## 🚀 Cài đặt
+## Cài đặt
 
 ### Yêu cầu tiên quyết
 
@@ -44,38 +44,38 @@ cypress-exercise/
 npm install
 ```
 
-## 📝 Các kịch bản kiểm thử
+## Các kịch bản kiểm thử
 
 ### 1. Login Test (`login_spec.cy.js`)
 
-- ✅ **Đăng nhập thành công**: Kiểm tra đăng nhập với thông tin hợp lệ
+- **Đăng nhập thành công**: Kiểm tra đăng nhập với thông tin hợp lệ
   - Username: `standard_user`
   - Password: `secret_sauce`
   - Xác minh chuyển hướng đến trang `/inventory.html`
 
-- ❌ **Đăng nhập thất bại**: Kiểm tra thông báo lỗi khi đăng nhập sai
+- **Đăng nhập thất bại**: Kiểm tra thông báo lỗi khi đăng nhập sai
   - Username: `invalid_user`
   - Password: `wrong_password`
   - Xác minh hiển thị thông báo lỗi
 
 ### 2. Cart Test (`cart_spec.cy.js`)
 
-- 🛒 **Thêm sản phẩm vào giỏ hàng**: Kiểm tra thêm sản phẩm
+- **Thêm sản phẩm vào giỏ hàng**: Kiểm tra thêm sản phẩm
   - Thêm sản phẩm đầu tiên
   - Xác minh badge giỏ hàng hiển thị "1"
 
-- 🔢 **Sắp xếp sản phẩm theo giá**: Kiểm tra chức năng sắp xếp
+- **Sắp xếp sản phẩm theo giá**: Kiểm tra chức năng sắp xếp
   - Sắp xếp theo "Price (low to high)"
   - Xác minh sản phẩm đầu tiên có giá $7.99
 
-- 🗑️ **Xóa sản phẩm khỏi giỏ hàng**: Kiểm tra xóa sản phẩm
+-  **Xóa sản phẩm khỏi giỏ hàng**: Kiểm tra xóa sản phẩm
   - Thêm sản phẩm vào giỏ
   - Xóa sản phẩm
   - Xác minh badge giỏ hàng biến mất
 
 ### 3. Checkout Test (`checkout_spec.cy.js`)
 
-- 💳 **Quy trình thanh toán hoàn chỉnh**: Kiểm tra toàn bộ flow thanh toán
+- **Quy trình thanh toán hoàn chỉnh**: Kiểm tra toàn bộ flow thanh toán
   - Đăng nhập
   - Thêm sản phẩm vào giỏ
   - Đi đến giỏ hàng
@@ -88,7 +88,7 @@ npm install
   - Hoàn tất đơn hàng
   - Xác minh thông báo "Thank you for your order!"
 
-## 🎮 Cách chạy test
+## Cách chạy test
 
 ### Mở Cypress Test Runner (Interactive Mode)
 
@@ -126,7 +126,7 @@ npm run cy:run:firefox
 npm run test:headed
 ```
 
-## 📊 Kết quả mong đợi
+## Kết quả mong đợi
 
 Tất cả test cases sẽ PASS nếu:
 
@@ -145,13 +145,13 @@ Website SauceDemo cung cấp nhiều tài khoản test:
 | `problem_user`            | `secret_sauce` | Tài khoản có vấn đề                          |
 | `performance_glitch_user` | `secret_sauce` | Tài khoản với hiệu suất chậm                 |
 
-## 📚 Tài liệu tham khảo
+## Tài liệu tham khảo
 
 - [Cypress Documentation](https://docs.cypress.io)
 - [SauceDemo Website](https://www.saucedemo.com)
 - [Cypress Best Practices](https://docs.cypress.io/guides/references/best-practices)
 
-## 🔧 Cấu hình Cypress
+## Cấu hình Cypress
 
 File `cypress.config.js` chứa các cấu hình:
 
@@ -161,7 +161,7 @@ File `cypress.config.js` chứa các cấu hình:
 - **video**: true (ghi video khi chạy test)
 - **screenshotOnRunFailure**: true (chụp màn hình khi test fail)
 
-## 📸 Nộp bài
+## Nộp bài
 
 Khi hoàn thành, sinh viên cần nộp:
 
@@ -169,14 +169,14 @@ Khi hoàn thành, sinh viên cần nộp:
 2. ✅ Screenshots hoặc video chạy test thành công
 3. ✅ File README.md này
 
-## 💡 Tips
+## Tips
 
 - Sử dụng `cy.pause()` để tạm dừng test và debug
 - Xem video recordings trong folder `cypress/videos/` sau khi chạy test
 - Xem screenshots trong folder `cypress/screenshots/` khi test fail
 - Sử dụng Cypress Dashboard để xem chi tiết test results
 
-## 🤝 Hỗ trợ
+## Hỗ trợ
 
 Nếu gặp vấn đề:
 
@@ -187,4 +187,4 @@ Nếu gặp vấn đề:
 
 ---
 
-**Chúc bạn thực hành thành công! 🎉**
+**Chúc bạn thực hành thành công!**

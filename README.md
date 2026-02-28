@@ -1,5 +1,6 @@
 KIỂM THỬ PHẦN MỀM – SOFTWARE TESTING
 - Thông tin chung
+  
 Môn học: Kiểm thử phần mềm
 Sinh viên: Đỗ Thị Phúc
 MSSV: BIT230322
@@ -9,6 +10,7 @@ Học kỳ: 8
 Repo này dùng để lưu trữ toàn bộ bài tập thực hành, tài liệu và báo cáo trong suốt quá trình học môn Kiểm thử phần mềm.
 
 - Mục tiêu học phần
+  
 Làm quen và thực hành các công cụ kiểm thử phổ biến trong thực tế
 Rèn luyện kỹ năng:
 Viết test case, test plan
@@ -16,9 +18,10 @@ Thực hiện kiểm thử đơn vị, tích hợp, giao diện, hiệu năng, b
 Quản lý lỗi và viết tài liệu kiểm thử
 Vận dụng kiến thức kiểm thử vào dự án nhóm
 Tiếp cận công cụ kiểm thử hiện đại có ứng dụng mô hình ngôn ngữ lớn (LLM/AI)
-- Các công cụ kiểm thử sử dụng
+Các công cụ kiểm thử sử dụng
 Nhóm công cụ	Công cụ
 - Cấu trúc Repository (Quản lý theo Branch)
+
 Repository này được tổ chức và quản lý mã nguồn theo các nhánh (branch) trên GitHub để phân chia từng bài thực hành:
 
 + main: Nhánh chính mặc định, chứa thông tin tổng quan của môn học.
